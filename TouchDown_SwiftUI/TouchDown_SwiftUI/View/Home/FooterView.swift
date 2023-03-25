@@ -10,7 +10,7 @@ import SwiftUI
 struct FooterView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
-            Text("fbnjfklkjbvbnjkl;lkjnbv vbnjkl;")
+            Text("We offer best football helmets in the market")
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
             

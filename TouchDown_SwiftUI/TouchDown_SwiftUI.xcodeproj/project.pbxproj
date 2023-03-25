@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA4E2C9929CF779C00F2A53E /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E2C9829CF779C00F2A53E /* PlayerModel.swift */; };
+		CA4E2C9B29CF781700F2A53E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E2C9A29CF781700F2A53E /* CodableBundleExtension.swift */; };
+		CA4E2C9D29CF793900F2A53E /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E2C9C29CF793900F2A53E /* FeaturedItemView.swift */; };
+		CA4E2C9F29CF79AE00F2A53E /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E2C9E29CF79AE00F2A53E /* FeaturedTabView.swift */; };
 		CA8DB55629BDEA0B001E586A /* TouchDown_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DB55529BDEA0B001E586A /* TouchDown_SwiftUIApp.swift */; };
 		CA8DB55829BDEA0B001E586A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DB55729BDEA0B001E586A /* ContentView.swift */; };
 		CA8DB55A29BDEA0D001E586A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8DB55929BDEA0D001E586A /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA4E2C9829CF779C00F2A53E /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		CA4E2C9A29CF781700F2A53E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		CA4E2C9C29CF793900F2A53E /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		CA4E2C9E29CF79AE00F2A53E /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		CA8DB55229BDEA0B001E586A /* TouchDown_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDown_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8DB55529BDEA0B001E586A /* TouchDown_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDown_SwiftUIApp.swift; sourceTree = "<group>"; };
 		CA8DB55729BDEA0B001E586A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 		CA8DB56E29BFB649001E586A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CA4E2C9829CF779C00F2A53E /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +147,8 @@
 				CA8DB57829BFB737001E586A /* FooterView.swift */,
 				CA8DB57A29BFB8B3001E586A /* NavigationBarView.swift */,
 				CA8DB57C29BFB9E2001E586A /* LogoView.swift */,
+				CA4E2C9C29CF793900F2A53E /* FeaturedItemView.swift */,
+				CA4E2C9E29CF79AE00F2A53E /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		CA8DB57229BFB682001E586A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CA4E2C9A29CF781700F2A53E /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -231,12 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4E2C9B29CF781700F2A53E /* CodableBundleExtension.swift in Sources */,
 				CA8DB55829BDEA0B001E586A /* ContentView.swift in Sources */,
 				CA8DB57D29BFB9E2001E586A /* LogoView.swift in Sources */,
 				CA8DB57929BFB737001E586A /* FooterView.swift in Sources */,
+				CA4E2C9D29CF793900F2A53E /* FeaturedItemView.swift in Sources */,
 				CA8DB55629BDEA0B001E586A /* TouchDown_SwiftUIApp.swift in Sources */,
 				CA8DB57529BFB6AA001E586A /* Constants.swift in Sources */,
 				CA8DB57B29BFB8B3001E586A /* NavigationBarView.swift in Sources */,
+				CA4E2C9F29CF79AE00F2A53E /* FeaturedTabView.swift in Sources */,
+				CA4E2C9929CF779C00F2A53E /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
